@@ -1,0 +1,579 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: arial;
+}
+html{
+	scroll-behavior: smooth;
+}	
+.container{
+	padding-left:0!important; 
+	padding-right:0!important; 
+	box-shadow: 0 0 10px gray;
+
+}
+#name{
+	border:5px solid #6a5a5a;
+	padding:5px 20px;
+	border-radius: 10px;
+	font-weight: 600;
+}
+
+nav a{
+	color:#6a5a5a;
+
+}
+nav a#name:hover{
+	background: #6a5a5a;
+	color:white;
+}
+nav a:hover{
+	color:tomato;
+	border-bottom: 2px solid tomato;
+}
+.text{
+	text-align: center;
+	font-weight: bold;
+}
+.hr{
+	width: 5%;
+	margin: 0 auto;
+	background: tomato;
+	height:3px;
+	border-radius: 20px;
+
+}
+#hello{
+	font-size: 30px;
+    width: 69%;
+    margin: 0 auto;
+    padding-top: 32px;
+    font-weight: bold;
+
+}
+.contruction{
+	width: 15%;
+	/*border:2px solid blue;*/
+	border-radius: 10px;
+	margin:30px auto;
+}
+.contruction a{
+	width: 100%;
+	padding:10px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 15px;
+	background-color: tomato;
+	color:black;
+}
+.contruction a:hover{
+	color: white;
+	background-color: black;
+	text-decoration: none;
+}
+
+.banner{
+	background-image: url('../images/img(1).jpg');
+	width: 100%;
+	background-size: cover;
+	position: relative;
+}
+.info{
+	margin-top: 250px!important;
+	width: 50%;
+	box-shadow: 0 0 10px  black;
+	margin:0 auto;
+}
+.info img{
+	width: 80%;
+		
+}
+#contact_1{
+	margin-top: 40px;
+}
+.contact{
+	height:50px;
+	background-color: #020215e3;
+	
+}
+.info table{
+	width: 100%;
+}
+.info table td{
+	line-height: 40px;
+	color: /*#e1d4d4*/black;
+}
+.link_contact{
+	text-align: center;
+line-height: 50px;
+}
+.link_contact i{
+	font-size: 25px;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 0.5s;
+}
+.link_contact i:hover{
+	color: tomato;
+	transform: scale(1.3,1.3);
+}
+.hr{
+	width: 50px;
+	height:2px;
+	background-color: gray;
+	margin:0 auto;
+}
+
+.about{
+	margin-top: 70px;
+	padding:20px 100px;
+}
+.about p{
+	font-size: 20px;
+	font-weight: 600;
+}
+.about .row>div#image_nn{
+	text-indent: 1em;
+}
+.myname{
+	color: green;
+	font-size: 25px;
+}
+#image_nn{
+	width: 100%;
+	/*height: 303px;*/
+	position: relative; 
+}
+.image{
+	width: 100%;
+/*	height:345px;*/
+	/*overflow: hidden;*/
+
+	
+}
+.school{
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+	background-color: black;
+	/*opacity: 0.5;*/
+	border-radius: 5px;
+	width: 55%;
+   	bottom: 0px;
+   	margin-left: 20px;
+   	line-height: 20px;
+   	transition: 2s;
+}
+#image_nn:hover .school{
+	height:10%;
+	color:white;
+	padding-right: 0!important;
+}
+.myskin{
+	background-color: #6000801f;
+	box-shadow: 0px 10px 13px #6000801f;
+}
+.skin_skin{
+	padding:200px;
+}
+.skin{
+	width: 100%;
+	background-color: #cfc6c6;
+	height: 10px;
+	border-radius: 20px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.skin div{
+	background-color: #0a3087;
+	border-radius: inherit;
+	height: inherit;
+}
+#skin_css{
+	width: 80%;
+}
+#skin_js,#skin_jq{
+	width: 70%;
+}
+#skin_html{
+	width: 90%;
+}
+#skin_php{
+	width: 75%;
+}
+.title p{
+	display: inline-block;
+}
+.right{
+	float: right;
+}
+.myskin_1{
+	width: 100%;
+}
+#content{
+	margin-left: 0!important;
+	margin-top: 30px;
+}
+.text_1{
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+	margin-top: 15px;
+}
+#contact_me{
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+#contact_me>div{
+	text-align: center;
+}
+.input{
+	padding-left: 10px;
+	height: 35px;
+}
+.send{
+	width: 15%;
+	border:none;
+	color: white;
+	background-color: tomato;
+	border-radius: 3px;
+	padding:5px 0px;
+}
+.main_3{
+	background-color: #6000801f;
+    box-shadow: 0px -35px 13px #6000801f;
+}
+form{
+	width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom:40px;
+}
+textarea{
+	width: 62%;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+footer{
+	background-color: #1e1e0c;
+	color:white;
+
+}
+#contact_me>div{
+	margin:30px 0;
+}
+#contact_me .icon i{
+	font-size: 35px;
+	color: tomato;
+}
+.mytext{
+	font-size: 14px;
+	color:gray;
+}
+.main_4,.main_5{
+	padding:30px 150px;
+}
+/*.main_4 .row{
+	text-align: center;
+    width: 100%;
+	margin: 30px 7%;
+}*/
+.main_4 .row>div{
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
+.main_4 .list>div img{
+	width: 100%;
+	height:300px;
+	
+}
+.document{
+	box-shadow: 0 0 10px gray;
+	border-radius: 5px;
+	width: 100%;
+	margin-left: 20px;
+}
+.offer{
+	width: 60%;
+    margin: 0 auto;
+}
+.offer img{
+	width: 100%;
+}
+
+.web{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.page{
+	padding-left: 10px;
+	height: 124px;
+    overflow: auto;
+   color: gray;
+    font-size: 14px;
+}
+.card-body {
+	padding:0!important;
+
+}
+.read{
+	height:40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	background-color: #1a2f5e;
+	border-bottom-right-radius: .25rem;
+	border-bottom-left-radius: .25rem;
+
+}
+iframe{
+	width: 100%;
+	height:300px;
+}
+.youtube i{
+	font-size: 40px;
+	margin-right: 3%;
+}
+.read:hover{
+	background-color: #09380f;
+}
+.read:hover i{
+	transform: scale(1.1,1.5);
+}
+
+@media all and (min-width: 320px) and (max-width: 575px){
+	nav a:hover{
+		border-bottom: none;
+		/*background-color: black;*/
+		color: tomato;
+	}
+	.info{
+		width: 85%;
+		margin-top: 40px !important;
+		
+	}
+	.info img{
+		width: 100%;
+	}
+	table tr{
+		font-size: 12px;
+	}
+	table{
+		margin-left: 15px!important;
+	}
+	.text{
+		font-size: 16px;
+	}
+	.skin_skin{
+		padding:30px;
+	}
+	.myskin_1{
+		padding-left: 0!important;
+	}
+	.about{
+		padding:20px 40px!important;
+	}
+	form{
+		width: 100%;
+	}
+	.input{
+		margin-top: 20px;
+    	width: 78%;
+	}
+	textarea{
+		width: 78%;
+	}
+	.image{
+		 margin-top: 20px;
+	}
+	.school{
+		width: 70%;
+	}
+	.main_4,.main_5{
+		padding:30px 50px;
+	}
+	.document{
+		    margin-bottom: 20px;
+	}
+	.contruction{
+		width: 45%;
+		text-align: center;
+	}
+	.contruction a {
+    	padding: 7px;
+	}
+	.offer {
+   	 	width: 27%;
+	}
+
+}
+@media all and (min-width: 576px) and (max-width: 767px){
+	.info{
+		width: 85%;
+		margin-top: 40px !important;
+	}
+	.info img{
+		width: 100%;
+	}
+	table tr{
+		font-size: 16px;
+	}
+	table{
+		margin-left: 15px!important;
+	}
+	.text{
+		font-size: 16px;
+	}
+	.skin_skin{
+		padding:30px;
+	}
+	.myskin_1{
+		padding-left: 0!important;
+	}
+	.about{
+	padding: 20px 60px;
+
+	}
+	form{
+		width: 100%;
+	}
+	textarea{
+		width: 78%;
+	}
+	.input{
+		width: 78%;
+		margin-top: 20px;
+	}
+	.image{
+		 margin-top: 20px;
+	}
+	.main_4,.main_5{
+		padding:30px 50px;
+	}
+	.document{
+		    margin-bottom: 20px;
+	}
+	.card-columns{
+		column-count: 1!important;
+
+	}
+	.contruction{
+		width: 45%;
+		text-align: center;
+	}
+	.contruction a {
+    	padding: 7px;
+	}
+	.offer {
+   	 	width: 27%;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+	.banner{
+	height:400px;
+
+	}
+	.info{
+		width: 70%;
+		margin-top: 40px !important;
+		position: absolute;
+		bottom: -10%;
+		left: 15%;
+	}
+	.info img{
+		width: 100%;
+	}
+	.info table td{
+	line-height: 20px;
+	font-size: 14px;
+	}
+	.skin_skin{
+		padding:30px;
+	}
+	.myskin_1{
+		padding-left: 0!important;
+	}
+	form{
+		width: 100%;
+	}
+	textarea{
+		width: 78%;
+	}
+	.main_4,.main_5{
+		padding:30px 80px;
+	}
+	.contruction{
+		width: 25%;
+		text-align: center;
+	}
+	.contruction a {
+    	padding: 5%;
+	}
+}
+@media all and (min-width: 992px) and (max-width: 1024px){
+	.banner{
+		height:500px;
+	}
+	.info{
+		width: 70%!important;
+		margin-top: 40px !important;
+		position: absolute;
+		bottom: -10%;
+		left: 15%;
+	}
+	.info img{
+		width: 100%;
+	}
+	.info table td{
+		line-height: 30px;
+	}
+	.skin_skin{
+		padding:100px;
+	}
+	.main_5{
+		padding:30px 100px;
+	}
+	.contruction{
+		width: 20%;
+		text-align: center;
+	}
+	.contruction a {
+    	padding: 5%;
+	}
+}
+@media all and (min-width: 1025px){
+	.banner{
+		height:500px;
+	}
+	.info{
+		width: 55%;
+		/*margin-top: 40px !important;*/
+		position: absolute;
+		bottom: -8%;
+		left: 23%;
+	}
+	.info img{
+		width: 100%;
+	}
+	.info table td{
+	line-height: 20px;
+	}
+	.skin_skin{
+		padding:100px;
+	}
+	.contruction{
+		width: 20%;
+		text-align: center;
+	}
+	.contruction a {
+    	padding: 5%;
+	}
+	
+}
+@media all and (min-width: 1200px){
+	.info table td{
+	line-height: 40px;
+	}
+}
