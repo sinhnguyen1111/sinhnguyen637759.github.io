@@ -342,6 +342,9 @@ iframe{
 .read:hover i{
 	transform: scale(1.1,1.5);
 }
+.about .row{
+		width: 100%;
+	}
 
 @media all and (min-width: 320px) and (max-width: 575px){
 	nav a:hover{
@@ -391,6 +394,9 @@ iframe{
 	.school{
 		width: 70%;
 	}
+	.about .row{
+		width: 100%;
+	}
 	.main_4,.main_5{
 		padding:30px 50px;
 	}
@@ -410,6 +416,10 @@ iframe{
 
 }
 @media all and (min-width: 576px) and (max-width: 767px){
+	nav a:hover{
+		border-bottom: none;
+		color: tomato;
+	}
 	.info{
 		width: 85%;
 		margin-top: 40px !important;
@@ -486,8 +496,8 @@ iframe{
 		width: 100%;
 	}
 	.info table td{
-	line-height: 20px;
-	font-size: 14px;
+		line-height: 20px;
+		font-size: 14px;
 	}
 	.skin_skin{
 		padding:30px;
@@ -549,7 +559,6 @@ iframe{
 	}
 	.info{
 		width: 55%;
-		/*margin-top: 40px !important;*/
 		position: absolute;
 		bottom: -8%;
 		left: 23%;
@@ -558,7 +567,7 @@ iframe{
 		width: 100%;
 	}
 	.info table td{
-	line-height: 20px;
+		line-height: 20px;
 	}
 	.skin_skin{
 		padding:100px;
@@ -574,6 +583,6 @@ iframe{
 }
 @media all and (min-width: 1200px){
 	.info table td{
-	line-height: 40px;
+		line-height: 40px;
 	}
 }
